@@ -1075,7 +1075,7 @@ body {
 .mh-skills .mh-professional-skill {
   padding-right: 60px; }
   .mh-skills .mh-professional-skill h3 {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 40px;
     text-align: center;
     font-weight: bold;
@@ -1084,8 +1084,9 @@ body {
 .mh-professional-skills {
   padding-left: 20%; }
   .mh-professional-skills h3 {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 40px;
+    margin-top: 13px;
     text-align: center;
     font-weight: bold;
     margin-bottom: 60px; }
@@ -1095,14 +1096,19 @@ body {
   margin: 0 auto;
   float: none;
   width: 48%;
-  margin-bottom: 30px;
+  font-weight: 600;
+  margin-bottom: 45px;
   text-align: center; }
 
 .mh-progress {
   margin-bottom: 10px;
   font: 900 1.1428571429em/1 Cinzel, cursive; }
   .mh-progress .progressbar-text {
-    color: inherit !important; }
+    color: inherit !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+     }
 
 .progress.progress-line {
   height: 10px;

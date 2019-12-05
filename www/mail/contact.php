@@ -1,4 +1,7 @@
 <?php
+    header("Access-Control-Allow-Origin: *");
+    header("Access-Control-Allow-Methods: PUT, GET, POST");
+    header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
 
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -39,7 +42,7 @@
         } else {
             // Set a 500 (internal server error) response code.
             http_response_code(500);
-            echo "Sorry! Something went wrong and we couldn't send your message.";
+            echo "Sorry! Something went wrong and it couldn't send your message.";
         }
 
     } else {

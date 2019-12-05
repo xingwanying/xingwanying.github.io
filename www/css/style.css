@@ -1358,6 +1358,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_about_experience_info{
     display: table-cell;
     width: calc(100% - 230px);
+    height: 250px;
     padding-left:30px;
 }
 .prt_about_experience_info h4{
